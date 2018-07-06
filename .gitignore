@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# auto generated files
+node_modules/
+app/.next/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/.react/
+
+# README
+README.txt
