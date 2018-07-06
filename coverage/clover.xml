@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1530870784422" clover="3.2.0">
+  <project timestamp="1530870784422" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9" elements="34" coveredelements="34" complexity="0" loc="17" ncloc="17" packages="2" files="3" classes="3">
+      <package name="boilerplate">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="jest.setup.js" path="/Users/adilkhankenzhetaev/Desktop/personalDev/boilerplate/jest.setup.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="boilerplate.app.components.cars">
+        <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9"/>
+        <file name="Detail.tsx" path="/Users/adilkhankenzhetaev/Desktop/personalDev/boilerplate/app/components/cars/Detail.tsx">
+          <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="3" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+        </file>
+        <file name="Overview.tsx" path="/Users/adilkhankenzhetaev/Desktop/personalDev/boilerplate/app/components/cars/Overview.tsx">
+          <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+          <line num="16" count="5" type="stmt"/>
+          <line num="18" count="5" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="28" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="29" count="2" type="stmt"/>
+          <line num="34" count="4" type="stmt"/>
+          <line num="35" count="12" type="stmt"/>
+          <line num="40" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="41" count="5" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="53" count="6" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
