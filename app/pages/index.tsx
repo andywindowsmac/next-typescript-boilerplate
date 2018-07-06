@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+import { Head } from '../components';
 
 const IndexPage: React.StatelessComponent = (): JSX.Element => (
-  <div>Hello Nexjs User</div>
+  <div>
+    <Head title="Home Page" />
+    <div>Hello Nexjs User</div>
+  </div>
 );
 
 export default IndexPage;
