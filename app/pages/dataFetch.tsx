@@ -3,8 +3,9 @@
 */
 import React from 'react';
 import axios from 'axios';
+import NextLink from 'next/link';
 
-import { Head, DataFetch } from '../components';
+import { Head, Counter, DataFetch } from '../components';
 
 interface IDataFetchPage {
   stars?: string;
@@ -21,6 +22,10 @@ class DataFetchPage extends React.PureComponent<IDataFetchPage> {
       <div>
         <Head title="Data Fetch" />
         <DataFetch stars={this.props.stars} />
+        <NextLink href="/">
+          <div>DataFetch</div>
+        </NextLink>
+        <Counter />
       </div>
     );
   }
